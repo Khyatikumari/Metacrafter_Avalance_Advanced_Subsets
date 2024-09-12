@@ -7,10 +7,15 @@ ERC20 GameToken and Gaming_Vault are two smart contracts included in the project
 # Configuring an EVM Subnet: A Step-by-Step Guide
 
 a) Curl -sSfL https ://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts/install.sh | sh -s to deploy your EVM subnet using the Avalanche CLI Avalanche-CLI Addition to PATH:.bashrc export PATH=~/bin:$PATH Run avalanche --version to verify that your installation is working. The operating version of the tool ought should print.
+
 b) Create a subnet in Metamask. Make sure your own EVM subnet is added to Metamask so you can connect with it. Sending events and interacting with installed smart contracts on your subnet are made possible by Metamask.
+
 c) Verify that this is the Metamask network that you like. Switch to a custom EVM subnet for your Metamask network to ensure that all interactions and transactions take place on the appropriate network.
+
 d) Link Remix to the Metamask. Utilize the Injected Provider service to establish a connection between the Remix IDE and Metamask. Remix may interact with your Metamask account through this connection, enabling you to launch contracts straight from the Remix UI.
+
 e) Establish your currency. Run the GameToken.sol and Remix enter into a pact. You can use this token as in-game cash. for instance, KHYT
+
 f) Activate Intelligent Contracts Your solid smart contract code should be copied and pasted into Remix. Gather contracts and use Remix's deployment interface to distribute them to your personalized EVM subnet.
 
 # ERC20.sol
